@@ -28,7 +28,36 @@ margin: 0;
     left:420px;
  }
 
-  
+ .stickyp{
+   width:35%;
+   height: 17%;
+  margin-left: 300px;
+   font-style: italic;
+    color:tomato;
+   border: 5px solid red;
+   background-color: yellowgreen;
+   border-radius: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+   bottom: 0px;
+   z-index:+1;
+ }
+ .stickyp1{
+   font-size: 35px;
+   font-weight: bold;
+   position: absolute;
+   top: 10px;
+   left: 7px;
+   
+ }
+ .stickyp2{
+   font-size: 18px;
+   position: absolute;
+   top: 40px;
+   left: 350px;
+ }
  .flex-container{
     width:1310px;
     height: 550px;
